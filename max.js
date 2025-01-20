@@ -1,8 +1,8 @@
 function max(array) {
   var x = 0;
-  for (i = 0; i < numbers.length; i++) {
-    if (numbers[i] > x) {
-      x = numbers[i];
+  for (i = 0; i < array.length; i++) {
+    if (array[i] > x) {
+      x = array[i];
     }
   }
   return x;
